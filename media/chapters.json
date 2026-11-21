@@ -1,0 +1,59 @@
+{
+  "duration": 131.724,
+  "chapters": [
+    {
+      "id": "overview",
+      "label": "多源数据",
+      "title": "数据形式不同，知识可以一起计算。",
+      "start": 0
+    },
+    {
+      "id": "representation",
+      "label": "统一表示",
+      "title": "统一的是接口，保留下来的是结构。",
+      "start": 13.919
+    },
+    {
+      "id": "decision",
+      "label": "联合任务",
+      "title": "一张订单，连接五类知识。",
+      "start": 27.393
+    },
+    {
+      "id": "update",
+      "label": "知识更新",
+      "title": "条件变了，结果与证据一起更新。",
+      "start": 41.707
+    },
+    {
+      "id": "media",
+      "label": "文档与图片",
+      "title": "文字进入表示，位置留在原文件。",
+      "start": 55.941
+    },
+    {
+      "id": "protocol",
+      "label": "跨 benchmark",
+      "title": "共享接入和执行接口，保留各自任务。",
+      "start": 71.125
+    },
+    {
+      "id": "results",
+      "label": "执行记录",
+      "title": "同一套表示，三个真实数据验证入口。",
+      "start": 86.1
+    },
+    {
+      "id": "encoder",
+      "label": "学习边界",
+      "title": "接口打通以后，再检验共享表征。",
+      "start": 103.049
+    },
+    {
+      "id": "closing",
+      "label": "开始探索",
+      "title": "让表示服务于任务，让结果回到证据。",
+      "start": 118.95
+    }
+  ]
+}
