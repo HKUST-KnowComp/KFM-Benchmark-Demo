@@ -1,0 +1,19 @@
+{
+  "results": [
+    {
+      "title": "Dry Bean · 表格预测",
+      "description": "固定测试集 2,716 条；训练支持预算 256、seed 0。原随机森林与 IR 重建路径的 accuracy 均为 0.886598，macro-F1 均为 0.894493。预测概率最大差 1.11e-16。",
+      "source": "https://archive.ics.uci.edu/dataset/602/dry+bean+dataset"
+    },
+    {
+      "title": "BIRD Dev · SQL 执行",
+      "description": "superhero 数据库、按 question_id 排序前 20 条参考 SQL：20/20 执行结果与原库一致。IR 每表仅物化 20 行，但 SQL 使用完整快照。这是参考 SQL 的执行一致性检查，不是 text-to-SQL 模型得分。",
+      "source": "https://bird-bench.github.io/"
+    },
+    {
+      "title": "WikiKG2 · 全量图排序兼容性",
+      "description": "训练图 16,109,182 条事实；测试 1,197,086 个查询，每个 501 个候选。训练端点频数基线的原生/IR 路径分数逐项相同，MRR 均为 0.343562。原协议的头/尾测试查询可相互推导答案；当前基线未利用这一通道，本结果仅证明兼容性，不作为联合查询模型的隐藏答案评测。",
+      "source": "https://ogb.stanford.edu/docs/linkprop/#ogbl-wikikg2"
+    }
+  ]
+}

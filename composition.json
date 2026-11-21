@@ -1,0 +1,262 @@
+{
+  "format": "controlled-composition-summary-v1",
+  "origin": "synthetic_controlled",
+  "trained_model": false,
+  "splits": {
+    "all": {
+      "episodes": 600,
+      "probes": 9600,
+      "mechanism_clusters": 20,
+      "modes": {
+        "frozen_initial": {
+          "sar": 0.8375,
+          "answer_accuracy": 0.9125,
+          "proof_root_audit_accuracy": 0.7625,
+          "n": 9600
+        },
+        "full_ir": {
+          "sar": 1.0,
+          "answer_accuracy": 1.0,
+          "proof_root_audit_accuracy": 1.0,
+          "n": 9600
+        },
+        "lossless_text": {
+          "sar": 1.0,
+          "answer_accuracy": 1.0,
+          "proof_root_audit_accuracy": 1.0,
+          "n": 9600
+        },
+        "native_graph": {
+          "sar": 0.308125,
+          "answer_accuracy": 0.308125,
+          "proof_root_audit_accuracy": 0.308125,
+          "n": 9600
+        },
+        "native_json": {
+          "sar": 0.31083333333333335,
+          "answer_accuracy": 0.31083333333333335,
+          "proof_root_audit_accuracy": 0.310625,
+          "n": 9600
+        },
+        "native_markdown": {
+          "sar": 0.2375,
+          "answer_accuracy": 0.2375,
+          "proof_root_audit_accuracy": 0.2375,
+          "n": 9600
+        },
+        "native_sqlite": {
+          "sar": 0.296875,
+          "answer_accuracy": 0.296875,
+          "proof_root_audit_accuracy": 0.296875,
+          "n": 9600
+        },
+        "native_table": {
+          "sar": 0.3225,
+          "answer_accuracy": 0.3225,
+          "proof_root_audit_accuracy": 0.3225,
+          "n": 9600
+        },
+        "native_text": {
+          "sar": 0.30145833333333333,
+          "answer_accuracy": 0.30145833333333333,
+          "proof_root_audit_accuracy": 0.30145833333333333,
+          "n": 9600
+        }
+      }
+    },
+    "train": {
+      "episodes": 360,
+      "probes": 5760,
+      "mechanism_clusters": 12,
+      "modes": {
+        "full_ir": {
+          "sar": 1.0,
+          "answer_accuracy": 1.0,
+          "proof_root_audit_accuracy": 1.0,
+          "n": 5760
+        },
+        "lossless_text": {
+          "sar": 1.0,
+          "answer_accuracy": 1.0,
+          "proof_root_audit_accuracy": 1.0,
+          "n": 5760
+        },
+        "native_table": {
+          "sar": 0.3267361111111111,
+          "answer_accuracy": 0.3267361111111111,
+          "proof_root_audit_accuracy": 0.3267361111111111,
+          "n": 5760
+        },
+        "native_graph": {
+          "sar": 0.30694444444444446,
+          "answer_accuracy": 0.30694444444444446,
+          "proof_root_audit_accuracy": 0.30694444444444446,
+          "n": 5760
+        },
+        "native_sqlite": {
+          "sar": 0.29444444444444445,
+          "answer_accuracy": 0.29444444444444445,
+          "proof_root_audit_accuracy": 0.29444444444444445,
+          "n": 5760
+        },
+        "native_text": {
+          "sar": 0.30451388888888886,
+          "answer_accuracy": 0.30451388888888886,
+          "proof_root_audit_accuracy": 0.30451388888888886,
+          "n": 5760
+        },
+        "native_markdown": {
+          "sar": 0.2375,
+          "answer_accuracy": 0.2375,
+          "proof_root_audit_accuracy": 0.2375,
+          "n": 5760
+        },
+        "native_json": {
+          "sar": 0.3076388888888889,
+          "answer_accuracy": 0.3076388888888889,
+          "proof_root_audit_accuracy": 0.3072916666666667,
+          "n": 5760
+        },
+        "frozen_initial": {
+          "sar": 0.8375,
+          "answer_accuracy": 0.9125,
+          "proof_root_audit_accuracy": 0.7625,
+          "n": 5760
+        }
+      }
+    },
+    "dev": {
+      "episodes": 120,
+      "probes": 1920,
+      "mechanism_clusters": 4,
+      "modes": {
+        "full_ir": {
+          "sar": 1.0,
+          "answer_accuracy": 1.0,
+          "proof_root_audit_accuracy": 1.0,
+          "n": 1920
+        },
+        "lossless_text": {
+          "sar": 1.0,
+          "answer_accuracy": 1.0,
+          "proof_root_audit_accuracy": 1.0,
+          "n": 1920
+        },
+        "native_table": {
+          "sar": 0.31979166666666664,
+          "answer_accuracy": 0.31979166666666664,
+          "proof_root_audit_accuracy": 0.31979166666666664,
+          "n": 1920
+        },
+        "native_graph": {
+          "sar": 0.29791666666666666,
+          "answer_accuracy": 0.29791666666666666,
+          "proof_root_audit_accuracy": 0.29791666666666666,
+          "n": 1920
+        },
+        "native_sqlite": {
+          "sar": 0.303125,
+          "answer_accuracy": 0.303125,
+          "proof_root_audit_accuracy": 0.303125,
+          "n": 1920
+        },
+        "native_text": {
+          "sar": 0.2989583333333333,
+          "answer_accuracy": 0.2989583333333333,
+          "proof_root_audit_accuracy": 0.2989583333333333,
+          "n": 1920
+        },
+        "native_markdown": {
+          "sar": 0.2375,
+          "answer_accuracy": 0.2375,
+          "proof_root_audit_accuracy": 0.2375,
+          "n": 1920
+        },
+        "native_json": {
+          "sar": 0.31875,
+          "answer_accuracy": 0.31875,
+          "proof_root_audit_accuracy": 0.31875,
+          "n": 1920
+        },
+        "frozen_initial": {
+          "sar": 0.8375,
+          "answer_accuracy": 0.9125,
+          "proof_root_audit_accuracy": 0.7625,
+          "n": 1920
+        }
+      }
+    },
+    "test": {
+      "episodes": 120,
+      "probes": 1920,
+      "mechanism_clusters": 4,
+      "modes": {
+        "full_ir": {
+          "sar": 1.0,
+          "answer_accuracy": 1.0,
+          "proof_root_audit_accuracy": 1.0,
+          "n": 1920
+        },
+        "lossless_text": {
+          "sar": 1.0,
+          "answer_accuracy": 1.0,
+          "proof_root_audit_accuracy": 1.0,
+          "n": 1920
+        },
+        "native_table": {
+          "sar": 0.3125,
+          "answer_accuracy": 0.3125,
+          "proof_root_audit_accuracy": 0.3125,
+          "n": 1920
+        },
+        "native_graph": {
+          "sar": 0.321875,
+          "answer_accuracy": 0.321875,
+          "proof_root_audit_accuracy": 0.321875,
+          "n": 1920
+        },
+        "native_sqlite": {
+          "sar": 0.29791666666666666,
+          "answer_accuracy": 0.29791666666666666,
+          "proof_root_audit_accuracy": 0.29791666666666666,
+          "n": 1920
+        },
+        "native_text": {
+          "sar": 0.2947916666666667,
+          "answer_accuracy": 0.2947916666666667,
+          "proof_root_audit_accuracy": 0.2947916666666667,
+          "n": 1920
+        },
+        "native_markdown": {
+          "sar": 0.2375,
+          "answer_accuracy": 0.2375,
+          "proof_root_audit_accuracy": 0.2375,
+          "n": 1920
+        },
+        "native_json": {
+          "sar": 0.3125,
+          "answer_accuracy": 0.3125,
+          "proof_root_audit_accuracy": 0.3125,
+          "n": 1920
+        },
+        "frozen_initial": {
+          "sar": 0.8375,
+          "answer_accuracy": 0.9125,
+          "proof_root_audit_accuracy": 0.7625,
+          "n": 1920
+        }
+      }
+    }
+  },
+  "duplicate_control": {
+    "answer_mismatches": 0,
+    "opportunities": 480,
+    "support_mismatches": 0
+  },
+  "description": "Same deterministic symbolic consumer; complete text and IR retain identical public records and retractions. Single carriers drop information.",
+  "audit_scope": "proof_and_independent_roots_only",
+  "unscored_legacy_audit_fields": [
+    "lifecycle_status",
+    "revision_kind"
+  ]
+}
